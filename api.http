@@ -1,0 +1,8 @@
+# API
+
+POST http://localhost:8069/web/session/authenticate HTTP/1.1
+content-type: application/json
+
+{
+    ""
+}
