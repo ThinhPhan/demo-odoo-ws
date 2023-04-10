@@ -1,8 +1,12 @@
 # API
 
-POST http://localhost:8069/web/session/authenticate HTTP/1.1
-content-type: application/json
+GET /tso/objects HTTP/1.1
+Host: localhost:8069
+Content-Type: application/json
+User-Agent: RestClient
+Accept-Encoding: gzip, deflate, br
+Cookie: session_id=b9b586c8ddbb8f8ee40657ede602e63d22bf7c4a
 
 {
-    ""
+
 }
